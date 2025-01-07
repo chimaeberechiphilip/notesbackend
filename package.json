@@ -5,6 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "build": "vite build",
+    "preview": "vite preview",
     "dev": "nodemon index.js",
     "server": "json-server -p3000 --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +14,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "build": "^0.1.4",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "nodemon": "^3.1.9"
+    "js-yaml": "^4.1.0",
+    "jxLoader": "^0.1.1",
+    "mongoose": "^8.9.3",
+    "nodemon": "^3.1.9",
+    "npm-force-resolutions": "^0.0.10",
+    "uglify-js": "^3.19.3"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
   }
 }
