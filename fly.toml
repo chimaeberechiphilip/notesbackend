@@ -1,0 +1,11 @@
+app = "your-app-name"
+
+[build]
+  dockerfile = "Dockerfile" # Ensure a valid Dockerfile exists in the root directory
+
+[env]
+  PORT = "8080"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
