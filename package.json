@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "vite build",
+    "build": "react-scripts build",
     "preview": "vite preview",
     "dev": "nodemon index.js",
     "server": "json-server -p3000 --watch db.json",
