@@ -1,31 +1,17 @@
 {
-  "name": "notes",
+  "name": "notebackend",
   "version": "1.0.0",
-  "description": "Note Profile",
-  "type": "module",
+  "description": "��#\u0000 \u0000n\u0000o\u0000t\u0000e\u0000s\u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "build": "react-scripts build",
-    "preview": "vite preview",
-    "dev": "nodemon index.js",
-    "server": "json-server -p3000 --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Philip",
   "license": "ISC",
   "dependencies": {
-    "build": "^0.1.4",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "js-yaml": "^4.1.0",
-    "jxLoader": "^0.1.1",
     "mongoose": "^8.9.3",
-    "nodemon": "^3.1.9",
-    "npm-force-resolutions": "^0.0.10",
-    "uglify-js": "^3.19.3"
-  },
-  "devDependencies": {
-    "vite": "^6.0.7"
+    "nodemon": "^3.1.9"
   }
 }
